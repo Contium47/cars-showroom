@@ -1,0 +1,142 @@
+.filter-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-modal__content {
+    width: 100%;
+    max-width: 420px;
+
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.filter-modal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.filter-modal__header h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.filter-modal__close {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.filter-modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-modal__group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-modal__group input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.filter-modal__group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-modal__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.filter-modal__actions button {
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.filter-modal__actions button:last-child {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+}
+
+.brand-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brand-filter__button {
+    padding: 8px 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.brand-filter__button--active {
+    padding: 8px 14px;
+    background: #222;
+    color: #fff;
+    border-color: #222;
+}
+
+@media (max-width: 480px) {
+    .filter-modal {
+        padding: 12px;
+    }
+
+    .filter-modal__content {
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    .filter-modal__header {
+        margin-bottom: 18px;
+    }
+
+    .filter-modal__header h2 {
+        font-size: 20px;
+    }
+
+    .brand-filter {
+        gap: 8px;
+        flex-direction: column;
+    }
+
+    .brand-filter__button {
+        flex: 1 1 calc(50% - 8px);
+        text-align: center;
+    }
+
+    .filter-modal__actions {
+        flex-direction: column;
+    }
+
+    .filter-modal__actions button {
+        width: 100%;
+    }
+}
