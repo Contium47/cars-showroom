@@ -2,7 +2,7 @@
 
 A simple Single Page Application built with React and Vite.
 
-The application uses the DummyJSON API to display vehicles. Users can search and filter vehicles, open a vehicle page, read reviews, and add their own reviews. User reviews are saved in Local Storage.
+The application uses the DummyJSON API to display vehicles. Users can filter vehicles, open a vehicle page, read reviews, and add their own reviews. User reviews are saved in Local Storage.
 
 ## Live Demo
 
