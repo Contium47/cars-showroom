@@ -11,7 +11,6 @@ https://cars-showroom-two.vercel.app
 ## Features
 
 * Vehicle list
-* Search vehicles
 * Filter vehicles
 * Vehicle details page
 * Reviews
