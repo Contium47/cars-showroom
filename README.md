@@ -1,16 +1,49 @@
-# React + Vite
+# Car Showroom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Single Page Application built with React and Vite.
 
-Currently, two official plugins are available:
+The application uses the DummyJSON API to display vehicles. Users can search and filter vehicles, open a vehicle page, read reviews, and add their own reviews. User reviews are saved in Local Storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://your-vercel-url.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Vehicle list
+* Search vehicles
+* Filter vehicles
+* Vehicle details page
+* Reviews
+* Add a review
+* Form validation
+* Local Storage for user reviews
+* Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+
+* React
+* Vite
+* React Router
+* Axios
+* React Hook Form
+* CSS
+* DummyJSON API
+
+## Getting Started
+
+Clone the repository:
+
+git clone https://github.com/Contium47/cars-showroom.git
+
+Go to the project folder:
+
+cd cars-showroom
+
+Install dependencies:
+
+npm i
+
+Run the development server:
+
+npm run dev
