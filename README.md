@@ -6,7 +6,7 @@ The application uses the DummyJSON API to display vehicles. Users can search and
 
 ## Live Demo
 
-https://your-vercel-url.vercel.app
+https://cars-showroom-two.vercel.app
 
 ## Features
 
